@@ -1,0 +1,25 @@
+.testnav li a {
+    text-decoration: none;
+    margin: 20px
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.testnav li img {
+    width: 70px;
+    margin-right: 950px;
+
+}
+.testnav {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(158, 218, 213);
+    margin: 0px;
+    padding: 20px;
+    top: 0px;
+    font-size: medium;
+    color: aqua;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .show{
+            width: 100%;
+            height: 500px;
+            background-color: bisque;
+            animation-name: shadow;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            background-size: cover;
+        }
+
+        @keyframes shadow{
+            0%{
+                background-image: url(https://images.unsplash.com/photo-1473800447596-01729482b8eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+            }
+            33%{
+                background-image: url(https://images.unsplash.com/photo-1473800447596-01729482b8eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+            }
+            33.1%{
+                background-image: url(https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-preview.jpg);
+            }
+            66%{
+                background-image: url(https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-preview.jpg);
+            }
+            66.1%{
+                background-image: url(https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-preview.jpg);
+            }
+            99.9%{
+                background-image: url(https://mcdn.wallpapersafari.com/medium/5/51/omRD79.jpg);
+            }
+
+        }
+        .div1{
+            position: absolute;
+            top: 40px;
+            z-index: 11;
+            font-size: 100px;
+            color: red;
+            animation-name: shadow1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        @keyframes shadow1{
+            0%{
+                margin-left: -600px;
+            }
+            100%{
+                margin-left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="show"></div>
+    <div class="div1">Welcome To Our Coaching</div>
+</body>
+</html>

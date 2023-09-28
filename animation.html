@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #div1{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            animation-name: ani1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes ani1 {
+            0%{
+                width: 400px;
+                height: 400px;
+                background-color: aqua;
+                margin-left: 0px;
+                border-radius: 0px;
+            }
+            100%{
+                width: 20px;
+                height: 20px;
+                background-color: black;
+                margin-left: 1000px;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img id="div1" src="https://media.istockphoto.com/id/1295917799/photo/yellow-plane-model.jpg?s=2048x2048&w=is&k=20&c=T_SXWtnSggO-4O5gpYC1OB3142l-PhqA5amZYd7o6I0=">
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .div1{
+            width: 200px;
+            height: 300px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .parent1{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-evenly;
+        }
+        @media(max-width:769px){
+            .paren1{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                justify-content: space-evenly;
+            }
+        }
+        @media(max-width:413px){
+            .div1{
+                width: 200px;
+                height: 300px;
+                background-color: aqua;
+                border-radius: 10px;
+                margin: 20px;
+            }
+            .parent1{
+                display: grid;
+                grid-template-columns: auto;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="parent1">
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+    </section>
+</body>
+</html>
